@@ -3,12 +3,14 @@ import java.util.Scanner;
 public class Welcome {
     public static void main(String[] args) throws Exception {
         System.out.println("Welcome Student!");
-        StudentRec str[] = new StudentRec[4];
+
+        // This object will run numbering in order to five times.
+        StudentRec str[] = new StudentRec[6];
         for (StudentRec sr : str){
             sr = new StudentRec();   
         }
 
-        StudentRec sr[] = new StudentRec[4];
+        StudentRec sr[] = new StudentRec[6];
         for (int i = 1; i < str.length ; i++){
             sr[i] = new StudentRec();
             sr[i].setName(); sr[i].setadd(); sr[i].setAge();
